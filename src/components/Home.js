@@ -1,3 +1,5 @@
+import Footer from "../common/footer";
+import Header from "../common/header";
 
 
 const Home = () => {
@@ -17,6 +19,7 @@ const Home = () => {
 
     return (
         <div className="col-11 centrar h-full ">
+            <Header/>
             <div className="row gradient-row centrar h-60 sm:min-h-80 p-6 sm:p-20" style={{ backgroundColor: "white" }}>
                 <h2 className="text-4xl sm:text-7xl text-white centrar">Web Shoker</h2>
                 <h2 className="text-2xl sm:text-5xl text-white centrar">CHESS SET</h2>
@@ -134,8 +137,8 @@ const Home = () => {
             </div>
             <div className="row centrar h-full" style={{ backgroundColor: "white" }}>
                 <div className="col-12 col-sm-10 col-md-10 col-lg-6 centrar p-6" style={{ backgroundColor: "#33374b" }}>
-                    <h2 className="text-2xl sm:text-3xl text-black centrar">CHECK THE</h2>
-                    <h2 className="text-4xl sm:text-5xl md:text-5 text-black centrar">CHESSBOARD</h2>
+                    <h2 className="text-2xl sm:text-3xl text-gray-500 centrar">CHECK THE</h2>
+                    <h2 className="text-4xl sm:text-5xl md:text-5 text-gray-500 centrar">CHESSBOARD</h2>
                     <h4 className="text-white text-justify sm:px-10 md:px-10">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -152,7 +155,7 @@ const Home = () => {
                 </div>
 
             </div>
-
+            <Footer/>
 
         </div>
 
