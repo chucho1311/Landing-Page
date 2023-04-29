@@ -15,9 +15,9 @@ const Sara = () => {
                 </div>
                 <div className="col-sm-6 centrar">
                     <h2 className="text-2xl sm:text-3xl text-white">Investigadoras:</h2>
-                    <h2 className="text-2xl sm:text-4xl text-white centrar ml-5"> Sara Lucía y Margareth Garzon</h2>
+                    <h2 className="text-2xl sm:text-4xl text-white centrar ml-5"> Sara Macias y Margareth Garzon</h2>
                     <h2 className="text-2xl sm:text-3xl text-white">Asesoras:</h2>
-                    <h2 className="text-2xl sm:text-4xl text-white centrar ml-10"> Andrea Caceres y Camila Sanchez.</h2>
+                    <h2 className="text-2xl sm:text-4xl text-white centrar ml-10"> Silvia Juliana Correa</h2>
                 </div>
 
             </div>
