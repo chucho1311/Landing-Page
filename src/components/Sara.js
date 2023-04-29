@@ -1,46 +1,37 @@
-import Footer from "../common/footer";
-import Header from "../common/header";
-import Sara from "./Sara";
+import foto from "../common/foto.jpg"
+import tabla1 from "../common/tabla-1.png"
+import tabla2 from "../common/tabla-2.png"
 
-
-const Home = () => {
-
-//     import Spline from "@splinetool/react-spline";
-
-//  <div className="h-80">
-//     <Spline scene="https://prod.spline.design/TRfTj83xgjIdHPmT/scene.spline" />
-
-// </div> 
-//  <div className="row centrar container-rotate">
-//                 <div className="col-4 rotate ">
-//                     <img className="image-rotate" src="https://img.freepik.com/psd-premium/tablero-ajedrez-ilustracion-renderizado-3d-fondo-transparente_494250-23166.jpg?w=2000" alt="image_test" />
-//                 </div>
-
-//             </div>
-
+const Sara = () => {
     return (
         <div className="col-11 centrar h-full ">
-            <Header/>
-            {/* <div className="row gradient-row centrar h-60 sm:min-h-80 p-6 sm:p-20" style={{ backgroundColor: "white" }}>
-                <h2 className="text-4xl sm:text-7xl text-white centrar">Web Shoker</h2>
-                <h2 className="text-2xl sm:text-5xl text-white centrar">CHESS SET</h2>
-            </div>
-            <div className="row centrar min-h-80 p:10 sm:p-20" style={{ backgroundColor: "white" }}>
-                <h2 className="col-12 text-xl sm:text-3xl text-black centrar">CHECK THE</h2>
-                <hr className="col-1 col-sm-4 self-center" />
-                <h2 className="col-3 text-5xl sm:text-7xl text-black centrar">FIGURES</h2>
-                <hr className="col-1 col-sm-4 self-center" />
-                <h4 className="col-11 text-justify md:px-40">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </h4>
-                <div className="col-12 centrar">
-                    <img className="h-40 sm:h-80 img-chess" src="https://previews.123rf.com/images/bankrx/bankrx1803/bankrx180300375/98317688-gold-chess-piece-stand-in-a-row-king-queen-bishop-knight-rook-pawn-on-white-background.jpg" alt="chess" />
+            <div className="row gradient-row centrar h-full sm:min-h-80 p-6 sm:p-20" style={{ backgroundColor: "white" }}>
+                <div className="col-sm-6 centrar mb-10">
+                    <img className="h-40 sm:h-80 img-chess" src={foto} alt="chess" />
+                </div>
+                <div className="col-sm-6 centrar">
+                    <h2 className="text-4xl sm:text-6xl text-white centrar">Grupo de estudiantes sordos ENSB</h2>
+                    <h2 className="text-2xl sm:text-3xl text-white">Asesoras:</h2>
+                    <h2 className="text-2xl sm:text-4xl text-white centrar"> Andrea Caceres y Camila Sanchez.</h2>
+                </div>
 
+            </div>
+            <div className="row centrar min-h-80 p:10 sm:p-20 " style={{ backgroundColor: "white" }}>
+                {/* <hr className="col self-center" /> */}
+                <h2 className="col-8 text-4xl sm:text-7xl text-black centrar">Categorias y Subcategorias</h2>
+                {/* <hr className="col self-center" /> */}
+                <h2 className="col-12 text-xl sm:text-3xl text-black centrar">Tabla 1 Categorias y subcategorias</h2>
+
+                <div className="col-12 centrar mb-10">
+                    <img className="h-48 sm:h-full img-chess" src={tabla1} alt="chess" />
+                </div>
+                <h2 className="col-12 text-xl sm:text-3xl text-black centrar">Tabla 2 Entrevistados</h2>
+
+                <div className="col-12 centrar">
+                    <img className="h-40 sm:h-full img-chess" src={tabla2} alt="chess" />
                 </div>
             </div>
-            <div className="row centrar min-h-80  divide-x  divide-y">
+            {/* <div className="row centrar min-h-80  divide-x  divide-y">
                 <div className="col-12 col-sm-6 col-md-6 col-lg-4 chess-piece min-h-20 p-3">
                     <div className="row centrar">
                         <img className="col-10 col-sm-11 col-md-8 h-40 sm:h-60 md:min-h-full" src="https://static.vecteezy.com/system/resources/thumbnails/006/670/924/small_2x/golden-chess-king-standing-alone-on-the-chessboard-photo.jpg" alt="chess king" />
@@ -131,35 +122,23 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row centrar h-full" style={{ backgroundColor: "white" }}>
-                <div className="col-12 col-sm-10 col-md-10 col-lg-6 centrar p-6" style={{ backgroundColor: "#33374b" }}>
-                    <h2 className="text-2xl sm:text-3xl text-gray-500 centrar">CHECK THE</h2>
-                    <h2 className="text-4xl sm:text-5xl md:text-5 text-gray-500 centrar">CHESSBOARD</h2>
-                    <h4 className="text-white text-justify sm:px-10 md:px-10">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </h4>
-                    <button className="col-4 btn btn-danger justify-self-center">
-                        View
-                    </button>
-                </div>
-
-                <div className="col-12 col-sm-10 col-md-8 col-lg-6 centrar" style={{ overflow: "hidden" }}>
-                    <img className="h-10 sm:h-full img-chess2" src="https://5.imimg.com/data5/MS/MY/JN/SELLER-68453713/15-x-15-collectible-chess-game-board-set-made-with-black-marble-1000x1000.jpg" alt="chess" />
-
-                </div>
-
             </div> */}
-            
-            <Sara/>
-            
-            <Footer/>
+            <div className="row centrar h-full" style={{ backgroundColor: "white" }}>
+                <div className="col-12 col-sm-10 col-md-10 col-lg-8 centrar p-6" style={{ backgroundColor: "#33374b" }}>
+                    <h4 className="text-white text-justify sm:px-10 md:px-10">
+                        Link para ingresar al canal oficial de la ENSB- visitar la lista de reproducción titulada “proyecto de investigación UCC - LSC
+                    </h4>
+                     <a className="text-justify sm:px- md:px-10" href="https://www.youtube.com/watch?v=Ng_awSzFalU&list=PLGhvG83vckdR4Qz7JdQPNJ3DkQYK2SLy4"> Click Aqui </a>
+                    <h4 className="text-white text-justify sm:px-10 md:px-10 mt-10">
+                        Link del video propuesta N-señaconmigo
+                    </h4>
+                    <a className="text-justify sm:px-10 md:px-10" href="https://youtu.be/Xvlu1i1kTNQ"> Click Aqui  </a>
 
+                </div>
+
+            </div>
         </div>
-
     )
 }
 
-export default Home;
+export default Sara;
