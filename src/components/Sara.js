@@ -23,9 +23,9 @@ const Sara = () => {
             </div>
             <div className="row centrar min-h-80 p:10 sm:p-20 " style={{ backgroundColor: "white" }}>
                 {/* <hr className="col self-center" /> */}
-                <h2 className="col-8 text-4xl sm:text-7xl text-black centrar">Categorias y Subcategorias</h2>
+                <h2 className="col-8 text-4xl sm:text-7xl text-black centrar">Categorías y Subcategorías</h2>
                 {/* <hr className="col self-center" /> */}
-                <h2 className="col-12 text-xl sm:text-3xl text-black centrar">Tabla 1 Categorias y subcategorias</h2>
+                <h2 className="col-12 text-xl sm:text-3xl text-black centrar">Tabla 1 Categorías y subcategorías</h2>
 
                 <div className="col-12 centrar mb-10">
                     <img className="h-48 sm:h-full img-chess" src={tabla1} alt="chess" />
