@@ -6,13 +6,18 @@ const Sara = () => {
     return (
         <div className="col-11 centrar h-full ">
             <div className="row gradient-row centrar h-full sm:min-h-80 p-6 sm:p-20" style={{ backgroundColor: "white" }}>
+                <div className="col-sm-11 centrar mb-10">
+                    <h3 className="text-2xl sm:text-5xl text-white centrar">Estrategia Didáctica para potenciar la enseñanza - aprendizaje en estudiantes sordos de la ENSB</h3>
+
+                </div>
                 <div className="col-sm-6 centrar mb-10">
                     <img className="h-40 sm:h-80 img-chess" src={foto} alt="chess" />
                 </div>
                 <div className="col-sm-6 centrar">
-                    <h2 className="text-4xl sm:text-6xl text-white centrar">Grupo de estudiantes sordos ENSB</h2>
+                    <h2 className="text-2xl sm:text-3xl text-white">Investigadoras:</h2>
+                    <h2 className="text-2xl sm:text-4xl text-white centrar ml-5"> Sara Lucía y Margareth Garzon</h2>
                     <h2 className="text-2xl sm:text-3xl text-white">Asesoras:</h2>
-                    <h2 className="text-2xl sm:text-4xl text-white centrar"> Andrea Caceres y Camila Sanchez.</h2>
+                    <h2 className="text-2xl sm:text-4xl text-white centrar ml-10"> Andrea Caceres y Camila Sanchez.</h2>
                 </div>
 
             </div>
@@ -27,7 +32,7 @@ const Sara = () => {
                 </div>
                 <h2 className="col-12 text-xl sm:text-3xl text-black centrar">Tabla 2 Entrevistados</h2>
 
-                <div className="col-12 centrar">
+                <div className="col-12 centrar mb-10">
                     <img className="h-40 sm:h-full img-chess" src={tabla2} alt="chess" />
                 </div>
             </div>
@@ -128,7 +133,7 @@ const Sara = () => {
                     <h4 className="text-white text-justify sm:px-10 md:px-10">
                         Link para ingresar al canal oficial de la ENSB- visitar la lista de reproducción titulada “proyecto de investigación UCC - LSC
                     </h4>
-                     <a className="text-justify sm:px- md:px-10" href="https://www.youtube.com/watch?v=Ng_awSzFalU&list=PLGhvG83vckdR4Qz7JdQPNJ3DkQYK2SLy4"> Click Aqui </a>
+                    <a className="text-justify sm:px- md:px-10" href="https://www.youtube.com/watch?v=Ng_awSzFalU&list=PLGhvG83vckdR4Qz7JdQPNJ3DkQYK2SLy4"> Click Aqui </a>
                     <h4 className="text-white text-justify sm:px-10 md:px-10 mt-10">
                         Link del video propuesta N-señaconmigo
                     </h4>
