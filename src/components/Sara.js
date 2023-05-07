@@ -137,7 +137,7 @@ const Sara = () => {
                     <h4 className="text-white text-justify sm:px-10 md:px-10 mt-10">
                         Link del video propuesta N-señaconmigo
                     </h4>
-                    <a className="text-justify sm:px-10 md:px-10" href="https://youtu.be/Xvlu1i1kTNQ"> Click Aqui  </a>
+                    <a className="text-justify sm:px-10 md:px-10" href="https://www.youtube.com/watch?v=ncX1uvwOc58"> Click Aqui  </a>
 
                 </div>
 
